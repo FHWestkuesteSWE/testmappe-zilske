@@ -1,13 +1,19 @@
 // TestProjekt.cpp : Diese Datei enthält die Funktion "main". Hier beginnt und endet die Ausführung des Programms.
 //
 
+using namespace std;
+
 #include <iostream>
+
 
 int main()
 {
     int f;
-    std::cout << "Hello Worlddddd!\n Test";
+    cout << "Hello Worlddddd!\n Test";
     f = 100;
+    int i = 10;
+    f = i + f;
+    cout << f;
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
