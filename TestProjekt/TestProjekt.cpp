@@ -9,10 +9,13 @@ using namespace std;
 int main()
 {
     int f;
-    cout << "Hello Worlddddd!\n Test";
-    f = 100;
-    int i = 10;
-    f = i + f;
+    int i;
+  //  cout << "Hello Worlddddd!\n Test";
+    cin >> f;
+    if (f > 0);
+    {cin >> i;
+    f = ((i + f)*(i^2))^2;
+    }
     cout << f;
 }
 
